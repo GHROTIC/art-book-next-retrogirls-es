@@ -1,13 +1,20 @@
-# Art Book Next for EmulationStation
-A simple theme for the version of EmulationStation used in [Batocera (v40 and above)](https://batocera.org/).
-Based on the style of a coffee table book.
+<p align=center><img src="https://i.imgur.com/OxDiSBk.jpg"></a></p>
 
-This version of the theme only works with distributions that use the latest Batocera (v40 and above) fork of EmulationStation.  Specifically [Batocera](https://batocera.org/), [Knulli](https://www.knulli.org/) and [RetroBat](https://www.retrobat.org/)
+# **<p align=center>Art Book Next - Retrogirls Edition</p>**
 
-## Preview
-| ![system view](https://github.com/anthonycaccese/art-book-next-es/assets/1454947/c0252388-2268-444c-ae3d-07f15b87a98c) | ![menu](https://github.com/anthonycaccese/art-book-next-es/assets/1454947/39653703-f6e8-4940-98fc-66ce1c5af271) |
-| -- | -- |
-| ![gamelist-view-1](https://github.com/anthonycaccese/art-book-next-es/assets/1454947/e8251f3c-f033-43ed-8b55-f3a93c28131a) | ![gamelist-view-2](https://github.com/anthonycaccese/art-book-next-es/assets/1454947/fadfba3e-54a4-48e2-a11c-39c52797dc56) |
+*<p align=center> Based on the style of pinup magazine scans ala Sports Illustrated Swimsuit Edition, except with the girls of gaming!</p>*
+
+<br>
+
+**6-6-2024:**
+
+*v0.6: Initial release and is designed for resolutions up to 1080p. Many systems have incorrect text or logos but the most common ones are supported. It's incredibly difficult to find a character that represents certain older systems and in those cases the image may be a random character playing a Video Game. A few systems such as Atari have placeholder images.*
+
+<br>
+
+<br>
+
+<p align=center>This version of the theme only works with distributions that use the latest Batocera (v40 and above) fork of EmulationStation.  Specifically [Batocera](https://batocera.org/), [Knulli](https://www.knulli.org/) and [RetroBat](https://www.retrobat.org/)</p>
 
 ## Theme Configuration
 
@@ -17,7 +24,7 @@ The following options can be changed directly from the main menu under `User Int
 | -- | -- | -- |
 | Distribution | Used to define which folder to look in for Theme Customization files. | `Batocera/Knulli`, `RetroBat` |
 | Aspect Ratio | Enables you to select the correct aspect ratio for your screen.  This will automatically set itself so you should not need to change it but if the theme layout looks odd or spacing looks incorrect you can use this setting to make sure the aspect ratio matches your screen. | `16:9`, `16:10`, `4:3`, `3:2`, `1:1` |
-| System Artwork | Defines the set of artwork that is displayed on the system view | `Default`, `Noir`, `Custom`, `Custom (Fullscreen)` |
+| System Artwork | Defines the set of artwork that is displayed on the system view | `Default`, `Custom`, `Custom (Fullscreen)` |
 | System Logos | Defines the logo set used on all views | `Default`, `Custom` |
 | Game Artwork | Defines the type of artwork used to represent a game. These are sourced from the the selections you make in the scraper menu. Image will display the image you selected to scrape for `Image Source`.  Image (Cropped) will display that same image zoomed in to fill the screen.  Boxart will display the image you selected to scrape for `Box Source` | `Image`, `Image (Cropped)`, `Boxart` |
 | Game Metadata | Sets if metadata (e.g. description, release date, etc...) should be displayed for a game | `On`, `Off` |
@@ -108,18 +115,13 @@ System logos can be customized by adding your own images
     * Box Source = `Box 2D`
     * Logo Source = `Marquee`
 
-### Versions for other ES forks:
-* If you use Retropie... then check out the version [here](https://github.com/anthonycaccese/art-book-next-retropie).  The Retropie version has all the same base features but you have to change them through the XML directly (as Retropie's theme engine does not have a menu for changing theme options)
-* If you use ES-DE... then the ES-DE version [here](https://github.com/anthonycaccese/art-book-next-es-de) will work out of the box with that distribution.  When used with ES-DE the theme comes with additional support for navigation sound sets.
-* If you use JELOS... then the version [here](https://github.com/anthonycaccese/art-book-next-jelos) will work out of the box with that distribution.
-
 ### **Acknowledgments**
-* Most system logos were sourced and modified from the excellent work done by Dan Patrick [here](https://archive.org/details/console-logos-professionally-redrawn-plus-official-versions).  I modified each to be compatible with EmulationStation's current SVG support.
+* Thanks to Anthony Cacesse, the creator of Art Book Next, for his excellent design that inspired this modification.
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
-* Auto-Collection Genre background art created by [@nautipuss](https://github.com/nautipuss)
 * Metadata Icons sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
-* The `Noir` System Artwork set was created and provided by [tenlevels](https://www.reddit.com/user/tenlevels/) with help from f8less and inspired by the artwork from the Epic Noir theme by chicuelo
-* Thank you to [GenoCL](https://genocl.carrd.co/) for the idea of the multi-artwork system view.  It got me to think about ES themes in a different way when building it out and it came out awesome.
+* Thank you to [GenoCL](https://genocl.carrd.co/) for the idea of the multi-artwork system view.
+* All images sourced from image depositories that allow user downloads, transferable rights and creation of derivative works per thier ToS, such as Danbooru.
+###### *<p align=center>(If you are the original artist and would like your work removed from this project, please contact me via Discord: @GHROTIC)</p>*
 
 ## **License**
 Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/
