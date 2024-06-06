@@ -11,7 +11,7 @@
 #### **v0.6: Initial release**
 
 * Original Art removed to reduce bloat and new default images added(designed for resolutions up to 1080p).
-* Many systems have unfinished Logo's or System Artwork but the most common ones are supported.
+* Some systems have unfinished Logo's or System Artwork and are using the Art Book Next default.
 * A few systems such as Atari have placeholder images.
 * Older systems may be a random character playing a Video Game due to the difficulty in finding art that represents it.
 
