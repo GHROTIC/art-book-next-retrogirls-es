@@ -16,6 +16,8 @@
 
 <p align=center>This version of the theme only works with distributions that use the latest Batocera (v40 and above) fork of EmulationStation.  Specifically [Batocera](https://batocera.org/), [Knulli](https://www.knulli.org/) and [RetroBat](https://www.retrobat.org/)</p>
 
+<br>
+
 ## Theme Configuration
 
 The following options can be changed directly from the main menu under `User Interface Settings > Theme Configuration`
