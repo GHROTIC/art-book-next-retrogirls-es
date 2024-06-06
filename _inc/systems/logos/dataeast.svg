@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="vertical"
+   x="0px"
+   y="0px"
+   viewBox="0 0 240 40"
+   sodipodi:docname="dataeast.svg"
+   inkscape:version="1.4-beta (62f545ba5e, 2024-04-22)"
+   width="240"
+   height="40"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.96"
+     inkscape:cx="83.258929"
+     inkscape:cy="20.033482"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="vertical" />
+  <path
+     d="M 0,40 V 20.8 h 10.176 q 1.424,0.032 2.512,0.416 1.104,0.384 1.904,1.184 1.6,1.552 1.6,4.384 v 7.168 q 0,2.864 -1.6,4.416 Q 13.008,39.952 10.176,40 Z M 4.096,24.8 V 38.816 L 6.912,36 H 9.76 q 0.576,0 1.008,-0.16 0.432,-0.16 0.72,-0.448 0.288,-0.288 0.448,-0.704 0.16,-0.416 0.16,-0.992 v -6.56 q 0,-1.12 -0.608,-1.728 Q 10.928,24.8 9.76,24.8 Z M 31.456016,36 h -8.096 l -1.456,4 h -4.352 l 6.976,-19.2 h 5.728 l 7.008,19.2 h -4.352 z m -4.88,-4 h 3.424 l -2.592,-7.104 -3.6,9.872 z M 41.504028,20.8 h 12.192 v 4 h -6.048 V 40 h -4.096 V 24.8 h -6.048 z M 68.960043,36 h -8.096 l -1.456,4 h -4.351998 l 6.975998,-19.2 h 5.728 l 7.008,19.2 h -4.352 z m -4.88,-4 h 3.424 l -2.592,-7.104 -3.6,9.872 z M 93.824103,20.8 H 104.0001 v 4 h -9.887997 q -1.248,0 -1.728,0.48 -0.272,0.272 -0.384,0.704 -0.096,0.432 -0.096,1.056 v 4.176 l 2.816,-2.816 h 9.279997 v 4 H 91.904103 v 1.36 q 0,0.624 0.096,1.056 0.112,0.432 0.384,0.704 0.48,0.48 1.728,0.48 h 9.887997 v 4 H 93.824103 q -1.648,0 -2.8,-0.336 -1.136,-0.352 -1.84,-1.072 -0.704,-0.704 -1.04,-1.856 -0.336,-1.168 -0.336,-2.784 v -7.136 q 0,-3.264 1.376,-4.64 0.704,-0.704 1.84,-1.056 1.152,-0.352 2.8,-0.32 z M 119.26412,36 h -8.096 l -1.456,4 h -4.352 l 6.976,-19.2 h 5.728 l 7.008,19.2 h -4.352 z m -4.88,-4 h 3.424 l -2.592,-7.104 -3.6,9.872 z m 16.46401,0.4 q -2.768,0 -4.16,-1.152 -1.376,-1.136 -1.376,-3.456 v -2.416 q 0,-4.576 5.536,-4.576 h 10.144 v 4 h -9.568 q -1.024,0 -1.504,0.384 -0.512,0.368 -0.512,1.152 v 0.528 q 0,0.784 0.512,1.152 0.48,0.384 1.504,0.384 h 4.512 q 2.8,0 4.192,1.152 1.376,1.184 1.376,3.424 v 2.448 q 0,4.576 -5.568,4.576 h -10.624 l 4,-4 h 6.08 q 1.024,0 1.504,-0.384 0.512,-0.368 0.512,-1.12 v -0.592 q 0,-0.752 -0.512,-1.12 -0.48,-0.384 -1.504,-0.384 z m 16.65602,-11.6 h 12.192 v 4 h -6.048 V 40 h -4.096 V 24.8 h -6.048 z"
+     id="text12"
+     style="font-size:32px;line-height:0.1;font-family:Gayatri;-inkscape-font-specification:Gayatri;fill:#ffffff"
+     aria-label="DATA  EAST" />
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="vertical"
+   x="0px"
+   y="0px"
+   viewBox="0 0 240 40"
+   sodipodi:docname="tecmo.svg"
+   inkscape:version="1.4-beta (62f545ba5e, 2024-04-22)"
+   width="240"
+   height="40"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="8.96"
+     inkscape:cx="71.316964"
+     inkscape:cy="20.033482"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="vertical" />
+  <path
+     d="m 4,20.8 h 12.192 v 4 H 10.144 V 40 H 6.048 V 24.8 H 0 l 4,-4 z m 20.208017,0 h 10.176 v 4 h -9.888 q -1.248,0 -1.728,0.48 -0.272,0.272 -0.384,0.704 -0.096,0.432 -0.096,1.056 v 4.176 l 2.816,-2.816 h 9.28 v 4 h -12.096 v 1.36 q 0,0.624 0.096,1.056 0.112,0.432 0.384,0.704 0.48,0.48 1.728,0.48 h 9.888 v 4 h -10.176 q -1.648,0 -2.8,-0.336 -1.136,-0.352 -1.84,-1.072 -0.704,-0.704 -1.04,-1.856 -0.336,-1.168 -0.336,-2.784 v -7.136 q 0,-3.264 1.376,-4.64 0.704,-0.704 1.84,-1.056 1.152,-0.352 2.8,-0.32 z m 18.192016,0 h 10.176 l -4,4 h -5.792 q -1.168,0 -1.728,0.608 -0.576,0.576 -0.576,1.728 v 6.56 q 0,1.12 0.576,1.696 0.288,0.288 0.72,0.448 0.432,0.16 1.008,0.16 h 9.792 v 4 h -10.176 q -1.456,-0.032 -2.544,-0.432 -1.072,-0.4 -1.872,-1.2 -0.8,-0.768 -1.184,-1.856 -0.384,-1.104 -0.416,-2.56 v -7.168 q 0.032,-1.424 0.416,-2.512 0.384,-1.104 1.184,-1.872 0.8,-0.8 1.872,-1.184 1.088,-0.384 2.544,-0.416 z m 28.528017,0 h 6.72 V 40 h -4.096 V 25.504 L 68.30405,40 h -4.352 l -5.28,-14.496 V 40 h -4.096 V 20.8 h 6.72 l 4.832,13.216 4.8,-13.216 z m 8.720021,5.984 q 0,-1.424 0.4,-2.512 0.4,-1.104 1.168,-1.872 0.8,-0.8 1.888,-1.184 1.104,-0.384 2.528,-0.416 h 6.272 q 1.424,0.032 2.512,0.416 1.104,0.384 1.872,1.184 1.6,1.552 1.6,4.384 v 7.168 q 0,2.864 -1.6,4.416 -1.536,1.584 -4.384,1.632 h -6.272 q -2.832,-0.048 -4.416,-1.632 -1.568,-1.568 -1.568,-4.416 z m 4.096,0.32 v 11.712 l 2.816,-2.816 h 4.96 q 0.56,0 0.976,-0.16 0.432,-0.16 0.72,-0.448 0.576,-0.576 0.576,-1.696 v -6.592 q 0,-1.152 -0.576,-1.728 -0.576,-0.576 -1.696,-0.576 h -5.504 q -1.12,0 -1.696,0.576 -0.576,0.576 -0.576,1.728 z"
+     id="text12"
+     style="font-size:32px;line-height:0.1;font-family:Gayatri;-inkscape-font-specification:Gayatri;fill:#ffffff"
+     aria-label="TECMO" />
+</svg>
