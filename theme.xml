@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-theme name:    Art Book Next (Batocera Edition)
-author:        Anthony Caccese
-license:       creative commons CC-BY-NC-SA
+theme name:    Art Book Next - Retrogirls (Knulli/Batocera Edition)
+Original project by: Anthony Caccese
 https://github.com/anthonycaccese/art-book-next-es
+Modification by: GHROTIC
+https://github.com/GHROTIC/art-book-next-retrogirls-es
+license:       creative commons CC-BY-NC-SA
 -->
 <theme defaultTransition="instant">
    <formatVersion>7</formatVersion>
@@ -59,7 +61,7 @@ https://github.com/anthonycaccese/art-book-next-es
    -->
    <subset name="system-view-artwork" displayName="System Artwork">
       <include name="default" displayName="Default" />
-      <include name="noir" displayName="Noir" />
+      <!--<include name="noir" displayName="Noir" />-->
       <!--<include name="classic" displayName="Classic" />-->
       <include name="custom" displayName="Custom" />
       <include name="custom-fullscreen" displayName="Custom (Fullscreen)" />
@@ -264,8 +266,11 @@ https://github.com/anthonycaccese/art-book-next-es
          <zIndex>1</zIndex>
       </carousel>
       <image name="system-logo" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
+         <origin>0.32 0.58</origin>
+         <pos>0.32 0.58</pos>
+         <scale>0.9</scale>
+         <rotationOrigin>0.32 0.58</rotationOrigin>
+         <rotation>-84.250</rotation>
          <color>${systemLogoColor}</color>
          <path>./_inc/systems/logos/${system.theme}.svg</path>
          <path ifSubset="system-logos:custom">${themeCustomizationsPath}logos/${system.theme}.svg</path>
@@ -273,9 +278,11 @@ https://github.com/anthonycaccese/art-book-next-es
          <zIndex>2</zIndex>
       </image>
       <text name="system-name" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <size>0.8 0.4</size>
+         <origin>0.33 0.60</origin>
+         <pos>0.33 0.60</pos>
+         <size>0.675 0.275</size>
+         <rotationOrigin>0.33 0.60</rotationOrigin>
+         <rotation>-84.250</rotation>
          <fontSize>0.1125</fontSize>
          <fontPath>${fontLogo}</fontPath>
          <forceUppercase>true</forceUppercase>
@@ -425,18 +432,19 @@ https://github.com/anthonycaccese/art-book-next-es
          <origin>0.5 0.5</origin>
          <path ifSubset="gamelist-view-artwork:boxart">{game:thumbnail}</path>
          <path ifSubset="gamelist-view-artwork:image-cropped|image">{game:image}</path>
-         <roundCorners ifSubset="gamelist-view-artwork:boxart|image">0.02</roundCorners>
+         <roundCorners ifSubset="gamelist-view-artwork:boxart|image">0.01</roundCorners>
          <autoFade>false</autoFade>
          <zIndex>3</zIndex>
       </image>
-      <image ifSubset="gamelist-view-artwork:image-cropped" name="game-logo" extra="true">
+      <!-- NOTE: Disabled Game Logo when cropped due to Game Logo being scraped w/ Game Image -->
+      <!-- <image ifSubset="gamelist-view-artwork:image-cropped" name="game-logo" extra="true">
          <origin ifSubset="gamelist-view-metadata:on">0 1</origin>
          <origin ifSubset="gamelist-view-metadata:off">0.5 0.5</origin>
          <path>{game:marquee}</path>
          <autoFade>false</autoFade>
          <zIndex ifSubset="gamelist-view-metadata:off">6</zIndex>
          <zIndex ifSubset="gamelist-view-metadata:off">4</zIndex>
-      </image>
+      </image> -->
       <video name="game-video" extra="true">
          <origin>0.5 0.5</origin>
          <path>{game:video}</path>
