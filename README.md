@@ -123,7 +123,7 @@ System logos can be customized by adding your own images
     * Logo Source = `Marquee`
 
 ### **Acknowledgments**
-* Thanks to Anthony Cacesse, the creator of Art Book Next, for his excellent design that inspired this modification.
+* Thanks to Anthony Caccese, the creator of Art Book Next, for his excellent design that inspired this modification.
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
 * Metadata Icons sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 * Thank you to [GenoCL](https://genocl.carrd.co/) for the idea of the multi-artwork system view.
