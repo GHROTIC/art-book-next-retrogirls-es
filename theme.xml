@@ -266,19 +266,37 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>1</zIndex>
       </carousel>
       <image name="system-logo" extra="true">
-         <origin if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.359 0.54</origin>
-         <origin if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.359 0.64</origin>
+         <origin if="{screen.ratio} == '16/10'" ifHelpPrompts="true">0.36 0.55</origin>
+         <origin if="{screen.ratio} == '16/10'" ifHelpPrompts="false">0.36 0.65</origin>
+         <origin if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.36 0.54</origin>
+         <origin if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.36 0.64</origin>
          <origin if="{screen.ratio} == '4/3'" ifHelpPrompts="true">0.32 0.58</origin>
          <origin if="{screen.ratio} == '4/3'" ifHelpPrompts="false">0.32 0.68</origin>
-         <pos if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.359 0.54</pos>
-         <pos if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.359 0.64</pos>
+         <origin if="{screen.ratio} == '3/2'" ifHelpPrompts="true">0.34 0.56</origin>
+         <origin if="{screen.ratio} == '3/2'" ifHelpPrompts="false">0.34 0.66</origin>
+         <origin if="${screen.width} == '720' && ${screen.height} == '720'" ifHelpPrompts="true">0.30 0.60</origin>
+         <origin if="${screen.width} == '720' && ${screen.height} == '720'" ifHelpPrompts="false">0.30 0.70</origin>
+         <pos if="{screen.ratio} == '16/10'" ifHelpPrompts="true">0.36 0.55</pos>
+         <pos if="{screen.ratio} == '16/10'" ifHelpPrompts="false">0.36 0.65</pos>
+         <pos if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.36 0.54</pos>
+         <pos if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.36 0.64</pos>
          <pos if="{screen.ratio} == '4/3'" ifHelpPrompts="true">0.32 0.58</pos>
          <pos if="{screen.ratio} == '4/3'" ifHelpPrompts="false">0.32 0.68</pos>
+         <pos if="{screen.ratio} == '3/2'" ifHelpPrompts="true">0.34 0.56</pos>
+         <pos if="{screen.ratio} == '3/2'" ifHelpPrompts="false">0.34 0.66</pos>
+         <pos if="${screen.width} == '720' && ${screen.height} == '720'" ifHelpPrompts="true">0.30 0.60</pos>
+         <pos if="${screen.width} == '720' && ${screen.height} == '720'" ifHelpPrompts="false">0.30 0.70</pos>
          <scale>0.9</scale>
-         <rotationOrigin if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.359 0.54</rotationOrigin>
-         <rotationOrigin if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.359 0.64</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '16/10'" ifHelpPrompts="true">0.36 0.55</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '16/10'" ifHelpPrompts="false">0.36 0.65</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.36 0.54</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.36 0.64</rotationOrigin>
          <rotationOrigin if="{screen.ratio} == '4/3'" ifHelpPrompts="true">0.32 0.58</rotationOrigin>
          <rotationOrigin if="{screen.ratio} == '4/3'" ifHelpPrompts="false">0.32 0.68</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '3/2'" ifHelpPrompts="true">0.34 0.56</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '3/2'" ifHelpPrompts="false">0.34 0.66</rotationOrigin>
+         <rotationOrigin if="${screen.width} == '720' && ${screen.height} == '720'" ifHelpPrompts="true">0.30 0.60</rotationOrigin>
+         <rotationOrigin if="${screen.width} == '720' && ${screen.height} == '720'" ifHelpPrompts="false">0.30 0.70</rotationOrigin>
          <rotation>-84.100</rotation>
          <color>${systemLogoColor}</color>
          <path>./_inc/systems/logos/${system.theme}.svg</path>
@@ -286,7 +304,7 @@ license:       creative commons CC-BY-NC-SA
          <path ifSubset="system-logos:custom">${themeCustomizationsPath}logos/${system.theme}.png</path>
          <zIndex>2</zIndex>
       </image>
-      <text name="system-name" extra="true">
+      <!-- NOTE: Disabled temporarily <text name="system-name" extra="true">
          <origin ifHelpPrompts="true">0.34 0.54</origin>
          <origin ifHelpPrompts="false">0.34 0.64</origin>
          <pos ifHelpPrompts="true">0.34 0.54</pos>
@@ -305,7 +323,7 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>2</zIndex>
          <visible ifSubset="system-logos:default">!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg")</visible>
          <visible ifSubset="system-logos:custom">!exists("${themePath}/_inc/systems/logos/" + {system:theme} + ".svg") &amp;&amp; !exists("${themeCustomizationsPath}logos/" + {system:theme} + ".png") &amp;&amp; !exists("${themeCustomizationsPath}logos/" + {system:theme} + ".svg")</visible>
-      </text>
+      </text> -->
    </view>
    <view name="system" ifSubset="system-view-artwork:custom-fullscreen">
       <image name="system-artwork" extra="true">
