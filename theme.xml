@@ -266,14 +266,20 @@ license:       creative commons CC-BY-NC-SA
          <zIndex>1</zIndex>
       </carousel>
       <image name="system-logo" extra="true">
-         <origin ifHelpPrompts="true">0.32 0.58</origin>
-         <origin ifHelpPrompts="false">0.32 0.68</origin>
-         <pos ifHelpPrompts="true">0.32 0.58</pos>
-         <pos ifHelpPrompts="false">0.32 0.68</pos>
+         <origin if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.359 0.54</origin>
+         <origin if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.359 0.64</origin>
+         <origin if="{screen.ratio} == '4/3'" ifHelpPrompts="true">0.32 0.58</origin>
+         <origin if="{screen.ratio} == '4/3'" ifHelpPrompts="false">0.32 0.68</origin>
+         <pos if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.359 0.54</pos>
+         <pos if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.359 0.64</pos>
+         <pos if="{screen.ratio} == '4/3'" ifHelpPrompts="true">0.32 0.58</pos>
+         <pos if="{screen.ratio} == '4/3'" ifHelpPrompts="false">0.32 0.68</pos>
          <scale>0.9</scale>
-         <rotationOrigin ifHelpPrompts="true">0.32 0.58</rotationOrigin>
-         <rotationOrigin ifHelpPrompts="false">0.32 0.68</rotationOrigin>
-         <rotation>-84.250</rotation>
+         <rotationOrigin if="{screen.ratio} == '16/9'" ifHelpPrompts="true">0.359 0.54</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '16/9'" ifHelpPrompts="false">0.359 0.64</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '4/3'" ifHelpPrompts="true">0.32 0.58</rotationOrigin>
+         <rotationOrigin if="{screen.ratio} == '4/3'" ifHelpPrompts="false">0.32 0.68</rotationOrigin>
+         <rotation>-84.100</rotation>
          <color>${systemLogoColor}</color>
          <path>./_inc/systems/logos/${system.theme}.svg</path>
          <path ifSubset="system-logos:custom">${themeCustomizationsPath}logos/${system.theme}.svg</path>
