@@ -6,9 +6,9 @@
 
 <br>
 
-**6-6-2024:**
+### **<p align=center>-= 6-6-2024 =-</p>**
 
-*v0.6: Initial release*
+#### **v0.6: Initial release**
 
 * Original Art removed to reduce bloat and new default images added(designed for resolutions up to 1080p).
 * Many systems have unfinished Logo's or System Artwork but the most common ones are supported.
