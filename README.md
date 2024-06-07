@@ -6,13 +6,11 @@
 
 <br>
 
-### **<p align=center>-= 6-6-2024 =-</p>**
+### **<p align=center>-= Notes =-</p>**
 
-#### **v0.6: Initial release**
-
-* Original Art removed to reduce bloat and new default images added(designed for resolutions up to 1080p).
-* Some systems have unfinished Logo's or System Artwork and are using the original Art Book Next default.
-* A few systems such as Atari have placeholder images.
+* Supports 4:3 and 16:9 screen ratios. Text may be a little off on others as it's been estimated and untested.
+* Original Art removed to reduce bloat and new default images added(designed for resolutions up to 1080p). Some art is poor quality at 1080p and will be eventually replaced.
+* A few systems such as Atari have placeholder images. Some systems have unfinished Logo's or System Artwork and are using the original Art Book Next default.
 * Older systems may be a random character playing a Video Game due to the difficulty in finding art that represents it.
 
 <br>
