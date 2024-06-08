@@ -21,6 +21,14 @@
 
 <br>
 
+### **<p align=center>-= Download =-</p>**
+
+The latest version for each OS can be found on the releases page:
+
+https://github.com/GHROTIC/art-book-next-retrogirls-es/releases
+
+<br>
+
 ## Theme Configuration
 
 The following options can be changed directly from the main menu under `User Interface Settings > Theme Configuration`
