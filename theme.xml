@@ -129,6 +129,16 @@ license:       creative commons CC-BY-NC-SA
 
    <!--
    ///
+   Subset: Splash Screen
+   ///
+   -->
+   <subset name="splash-screen" displayName="Splash Screen">
+      <include name="default" displayName="Default" />
+      <include name="custom" displayName="Custom" />
+   </subset>
+   
+   <!--
+   ///
    View: Screen
    ///
    -->
