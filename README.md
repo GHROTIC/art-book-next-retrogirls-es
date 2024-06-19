@@ -133,7 +133,7 @@ System logos can be customized by adding your own images
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
 * Metadata Icons sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 * Thank you to [GenoCL](https://genocl.carrd.co/) for the idea of the multi-artwork system view.
-* All images sourced from image depositories that allow user downloads, transferable rights and creation of derivative works per thier ToS, such as Danbooru.
+* All images sourced from image depositories that allow user downloads, transferable rights and creation of derivative works per thier ToS, such as Danbooru. In some cases official art, screenshots or wallpaper may be used as placeholders.
 ###### *<p align=center>(If you are the original artist and would like your work removed from this project, please contact me via Discord: @GHROTIC)</p>*
 
 ## **License**
