@@ -1,27 +1,26 @@
-<p align=center><img src="https://i.imgur.com/OxDiSBk.jpg"></a></p>
-
 # **<p align=center>Art Book Next - Retrogirls Edition</p>**
 
-*<p align=center> Based on the style of pinup magazine scans ala Sports Illustrated Swimsuit Edition, except with the girls of gaming!</p>*
+*<p align=center> Based in the style of pinup magazine scans ala Sports Illustrated Swimsuit Edition, except with the girls of gaming!</p>*
 
 <br>
+
+| 4:3 Boot Logo Preview | 4:3 Theme Preview |
+| -- | -- |
+| ![4:3 Boot Logo](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/bootlogo_4-3.jpg) | ![4:3 Preview](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/retrogirls_4-3.jpg) |
 
 ### **<p align=center>-= Notes =-</p>**
 
 * Supports 4:3 and 16:9 screen ratios. Text may be a little off on others as it's been estimated and untested.
-* Original Art removed to reduce bloat and new default images added(designed for resolutions up to 1080p). Some art is poor quality at 1080p and will be eventually replaced.
-* A few systems such as Atari have placeholder images. Some systems have unfinished Logo's or System Artwork and are using the original Art Book Next default.
-* Older systems may be a random character playing a Video Game due to the difficulty in finding art that represents it.
+* Original Art removed to reduce bloat and new default images added for resolutions up to 1080p(Some art is poor quality at 1080p and will eventually be replaced).
+* Some systems still have placeholder images and will be gradually replaced.
+* Extremely old and/or obscure systems may have a random character playing a Video Game due to the difficulty in finding art that represents it.
 
 <br>
-
-<br>
-
-<p align=center>This version of the theme only works with distributions that use the latest Batocera (v40 and above) fork of EmulationStation.  Specifically [Batocera](https://batocera.org/), [Knulli](https://www.knulli.org/) and [RetroBat](https://www.retrobat.org/)</p>
 
 <br>
 
 ### **<p align=center>-= Download =-</p>**
+This version of the theme only works with distributions that use the latest Batocera (v40 and above) fork of EmulationStation.  Specifically [Batocera](https://batocera.org/), [Knulli](https://www.knulli.org/) and [RetroBat](https://www.retrobat.org/)
 
 The latest version for each OS can be found on the releases page:
 
