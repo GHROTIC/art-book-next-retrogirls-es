@@ -6,7 +6,7 @@
 
 | 4:3 Boot Logo Preview | 4:3 Theme Preview |
 | -- | -- |
-| ![4:3 Boot Logo](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/bootlogo_4-3.jpg) | ![4:3 Preview](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/retrogirls_4-3.jpg) |
+| ![4:3 Boot Logo](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/preview/bootlogo_4-3.jpg) | ![4:3 Preview](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/preview/retrogirls_4-3.jpg) |
 
 ### **<p align=center>-= Notes =-</p>**
 
