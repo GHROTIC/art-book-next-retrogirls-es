@@ -8,28 +8,28 @@
    <variables>
       <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath><!-- RetroBat\emulationstation\.emulationstation\ -->
       <distributionPath ifSubset="distribution:batocera">/userdata/</distributionPath><!-- /userdata -->
-      <themeCustomizationsPath>${distributionPath}theme-customizations/art-book-next/</themeCustomizationsPath>
+      <themeCustomizationsPath>${distributionPath}themes/es-theme-art-book-next-retrogirls/_inc/images/</themeCustomizationsPath>
    </variables>
    
    <include>./colors.xml</include>
-   <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include>
+   <!-- <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include> -->
 
    <formatVersion>7</formatVersion>
    <view name="splash">
       <splash name="splash">
       <backgroundColor>${splashBackgroundColor}</backgroundColor>
       </splash>
-      <image ifSubset="splash-screen:custom" name="background">
+      <image ifSubset="splash-screen:default" name="background">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <minSize>1 1</minSize>
-         <path>${themeCustomizationsPath}splash.png</path>
-         <path>${themeCustomizationsPath}splash.jpg</path>
+         <path if="{screen.ratio} == '4/3'">${themeCustomizationsPath}splash4-3.png</path>
+         <path>${themeCustomizationsPath}splash16-9.png</path>
       </image>
-      <image ifSubset="splash-screen:default" name="background">
+      <!-- <image ifSubset="splash-screen:default" name="background">
          <origin>0 0</origin>
          <pos>1 1</pos>
-      </image>
+      </image> -->
       <image name="progressbar">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
