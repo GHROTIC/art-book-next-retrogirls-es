@@ -12,7 +12,7 @@
    </variables>
    
    <include>./colors.xml</include>
-   <!-- <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include> -->
+   <include ifSubset="color-scheme:custom">${themeCustomizationsPath}customcolors.xml</include>
 
    <formatVersion>7</formatVersion>
    <view name="splash">
