@@ -33,7 +33,7 @@ license:       creative commons CC-BY-NC-SA
       <spacerImage>./_inc/images/space.png</spacerImage>
       <distributionPath ifSubset="distribution:retrobat">~/.emulationstation/</distributionPath><!-- RetroBat\emulationstation\.emulationstation\ -->
       <distributionPath ifSubset="distribution:batocera">/userdata/</distributionPath><!-- /userdata -->
-      <themeCustomizationsPath>${distributionPath}theme-customizations/art-book-next/</themeCustomizationsPath>
+      <themeCustomizationsPath>${distributionPath}themes/es-theme-art-book-next-retrogirls/_inc/images/</themeCustomizationsPath>
    </variables>
 
    <!--
