@@ -23,15 +23,15 @@
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <minSize>1 1</minSize>
-         <path if="{screen.ratio} == '4/3'">${themeCustomizationsPath}splash4-3.png</path>
          <path>${themeCustomizationsPath}splash16-9.png</path>
+         <path if="{screen.ratio} == '4/3'">${themeCustomizationsPath}splash4-3.png</path>
       </image>
       <image ifSubset="splash-screen:custom" name="background">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <minSize>1 1</minSize>
-         <path if="{screen.ratio} == '4/3'">${themeCustomizationsPath}customsplash4-3.png</path>
          <path>${themeCustomizationsPath}customsplash16-9.png</path>
+         <path if="{screen.ratio} == '4/3'">${themeCustomizationsPath}customsplash4-3.png</path>
       </image>
       <image name="progressbar">
          <origin>0.5 0.5</origin>
