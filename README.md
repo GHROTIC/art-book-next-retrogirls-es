@@ -24,9 +24,7 @@
 <br>
 
 ### **<p align=center>-= Download =-</p>**
-This version of the theme only works with distributions that use the latest Batocera (v40 and above) fork of EmulationStation.  Specifically [Batocera](https://batocera.org/), [Knulli](https://www.knulli.org/) and [RetroBat](https://www.retrobat.org/)
-
-The latest version for each OS can be found on the releases page:
+This version of the theme only works with [Knulli](https://www.knulli.org/) and [PlumOS](https://github.com/game-de-it/XU_MINI_M/). The latest version for each OS can be found on the releases page:
 
 https://github.com/GHROTIC/art-book-next-retrogirls-es/releases
 
@@ -56,80 +54,20 @@ The following EmulationStation settings can also be changed and will update the 
 
 ## Theme Customizations
 
-Art Book Next allows customizations to system artwork and color schemes without the need to edit the source XML.  This enables you to change the look of the theme and still retain your changes when the theme is updated.
-
-### Start Here
-- Make sure the `Distribution` setting is set to the correct value for your current OS (e.g. Batocera/Knulli or RetroBat)
-- This value determines the folder where you will add your customizations
-    - Batocera/Knulli = `/userdata/theme-customizations/art-book-next/`
-    - Retrobat = `C:\RetroBat\emulationstation\.emulationstation\theme-customizations\art-book-next\`
-- Create the folders that match your distribution and then move on to the options below...
-
-### Background Art
-
-The artwork used on the system view can be customized with your own images.
-
-#### For angled artwork:
-
-* Create your custom artwork using one of the masks i've supplied in this theme's resources directory [here](https://github.com/anthonycaccese/art-book-next-es/tree/main/resources/customizations). I've included a set of masks that should work in all major image editing programs.
-* Export your final images as transparent pngs
-* Create a folder in the path you created above called `artwork`
-* Upload your images to that folder
-* They can be named:
-    * `_default.png`
-    * `${system.theme}.png`
-    * The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback.  This allows you to customize only the images you want and still have images displayed for all systems.
-    * `_default.png` can be used for creating a single image that is used for all systems OR a fallback for systems that you did not create a custom image for (if you don't want to use the fallback that already exists in the theme)
-    * `${system.theme}.png` should be named for the system you are looking to override. For example if you wanted to override the artwork for `snes` you would create an image called `snes.png` in the artwork folder.
-* Once your images are in place you turn on custom images by changing the `System Artwork` setting to `Custom`
-
-#### For fullscreen artwork:
-
-* Create a folder in the path you created above called `artwork-fullscreen`
-* Upload your images to that folder
-* They can be named:
-    * `_default.png`
-    * `_default.jpg`
-    * `${system.theme}.png`
-    * `${system.theme}.jpg`
-    * The theme will look them them up in that order.
-    * `_default.png/jpg` can be used for creating a single image that is used for all systems OR a fallback for systems that you did not create a custom image for (if you don't want to use the fallback that already exists in the theme)
-    * `${system.theme}.png/jpg` should be named for the system you are looking to override. For example if you wanted to override the artwork for `snes` you would create an image called `snes.png` or `snes.jpg` in the artwork folder.
-* Once your images are in place you turn on custom images by changing the `System Artwork` setting to `Custom (Fullscreen)`
-
-> If you create a set of images that you would like to share with the community please let me know about it [here](https://retropie.org.uk/forum/topic/33010/theme-art-book-next)
-
-### Color Schemes
-
-You can create your own custom color scheme to use for the theme
-
-* Download this template: https://github.com/anthonycaccese/art-book-next-es/blob/main/resources/customizations/colors.xml
-* Upload it in the path you created above and make sure its called `colors.xml`
-* Change any values in the template to the colors you prefer.
-* I tried to make the values as self explanatory as possible but if you have questions regarding which property does what please don't hesitate to ask.
-* After your colors are defined; in theme configuration change `Color Scheme` to `Custom`
-
-### Logos
-
-System logos can be customized by adding your own images
-
-* Create a folder in the path you created above called `logos`
-* Upload your images to that folder
-* They can be named:
-    * `${system.theme}.svg`
-    * `${system.theme}.png`
-    * The theme will look them them up in that order. If a given image is not found in your folder then the the images from the theme will be used as a fallback.  This allows you to customize only the images you want and still have images displayed for all systems.
-    * `${system.theme}.svg/png` should be named for the system you are looking to override. For example if you wanted to override the logo for `snes` you would create an image called `snes.svg` or `snes.png` in the logos folder.
-* Once your images are in place you turn on custom images by changing the `System Logos` setting to `Custom`
+Customization has been removed in the PlumOS version and will eventually be phased out for the Knulli Edition. I consider it best to support the original Art Book Next if you want to customize your own version and this will allow me to modify features without breaking the theme in the process.
 
 ## **Additional Notes**
 
 ### Media Scraping:
 
-* To make game artwork look as good as possible the recommneded settings for the built-in scraper are:
+* To make game artwork look as good as possible the recommneded settings for the built-in scraper in Knulli are:
     * Image Source = `Screenshot`
     * Box Source = `Box 2D`
     * Logo Source = `Marquee`
+      
+* Recommneded Scraper Settings for the built-in Scraper in PlumOS are:
+    * Image Source = `Screenshot`
+
 
 ### **Acknowledgments**
 * Thanks to Anthony Caccese, the creator of Art Book Next, for his excellent design that inspired this modification.
