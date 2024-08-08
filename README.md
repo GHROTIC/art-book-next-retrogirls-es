@@ -19,7 +19,15 @@
 * Some systems still have placeholder images and will be gradually replaced.
 * Extremely old and/or obscure systems may have a random character playing a Video Game due to the difficulty in finding art that represents it.
 
-<br>
+#### Media Scraping:
+
+* To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli are:
+    * Image Source = `Screenshot`
+    * Box Source = `Box 2D`
+    * Logo Source = `Marquee`
+      
+* Recommneded Scraper Settings for the built-in Scraper in PlumOS are:
+    * Image Source = `Screenshot`
 
 <br>
 
@@ -45,28 +53,18 @@ The following options can be changed directly from the main menu under `User Int
 | Font Size | Set the size for text elements throughout the theme. | `Default`, `Small`, `Large` |
 | Color Scheme | Sets the color scheme that is used for the theme.  There is a set of prebuilt color schemes that you can select and an option to supply your custom color scheme (selected by choosing `custom`). You can see details on customizations below under [Theme Customizations](#theme-customizations). | `Default`, `Light`, `Steam OS`, `SNES`, `Famicom`, `DMG`, `OLED`, `Custom` |
 
+
 ### Additional UI Settings 
 
 The following EmulationStation settings can also be changed and will update the look of the theme accordingly:
-* `User Interface Settings > Show Clock` - This will allow you to turn the system clock on or off
-* `User Interface Settings > On-Screen Help` - This will turn the display of EmulationStation's help system on or off (the theme's layout will automatically adapt to the available space)
+* `User Interface Settings > Show Clock` - This will allow you to turn the system clock on or off(Not Currently Supported in PlumOS)
+* `User Interface Settings > On-Screen Help` - This will turn the display of EmulationStation's button help system on or off (Not Currently Supported in PlumOS)
 * `User Interface Settings > Show Battery Status` - This will allow you to change what is displayed for the battery status.
+
 
 ## Theme Customizations
 
 Customization has been removed in the PlumOS version and will eventually be phased out for the Knulli Edition. I consider it best to support the original Art Book Next if you want to customize your own version and this will allow me to modify features without breaking the theme in the process.
-
-## **Additional Notes**
-
-### Media Scraping:
-
-* To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli are:
-    * Image Source = `Screenshot`
-    * Box Source = `Box 2D`
-    * Logo Source = `Marquee`
-      
-* Recommneded Scraper Settings for the built-in Scraper in PlumOS are:
-    * Image Source = `Screenshot`
 
 
 ### **Acknowledgments**
