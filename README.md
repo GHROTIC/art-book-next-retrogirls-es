@@ -60,7 +60,7 @@ Customization has been removed in the PlumOS version and will eventually be phas
 
 ### Media Scraping:
 
-* To make game artwork look as good as possible the recommneded settings for the built-in scraper in Knulli are:
+* To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli are:
     * Image Source = `Screenshot`
     * Box Source = `Box 2D`
     * Logo Source = `Marquee`
