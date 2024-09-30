@@ -16,7 +16,7 @@
 
 * Currently supports 4:3 screen ratios on PlumOS, TheRA & ArkOS. Knulli version supports 4:3 and 16:9 screen ratios.
 * Original Art removed to reduce bloat and new default images added for resolutions up to from 480p to 1080p, depending on OS. 
-* Extremely old and/or obscure systems will have a default image due to the difficulty in finding art that represents it. The Image Mask to create additional images will eventually be included with all distributions if you would like to add your own system artwork.
+* Extremely old and/or obscure systems will have a default image due to the difficulty in finding art that represents it. The Image Mask to create additional images will eventually be included with all distributions, in case you would like to add your own system artwork.
 
 #### Media Scraping:
 
