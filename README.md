@@ -14,16 +14,14 @@
 
 ### **<p align=center>-= Notes =-</p>**
 
-* Supports 4:3 and 16:9 screen ratios. Text may be a little off on others as it's been estimated and untested.
-* Original Art removed to reduce bloat and new default images added for resolutions up to 1080p(Some art is poor quality at 1080p and will eventually be replaced).
-* Some systems still have placeholder images and will be gradually replaced.
-* Extremely old and/or obscure systems may have a random character playing a Video Game due to the difficulty in finding art that represents it.
+* Currently supports 4:3 screen ratios on PlumOS, TheRA & ArkOS. Knulli version supports 4:3 and 16:9 screen ratios.
+* Original Art removed to reduce bloat and new default images added for resolutions up to from 480p to 1080p, depending on OS. 
+* Extremely old and/or obscure systems will have a default image due to the difficulty in finding art that represents it. The Image Mask to create additional images will eventually be included with all distributions if you would like to add your own system artwork.
 
 #### Media Scraping:
 
-* To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli are:
+* To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli, TheRA and ArkOS are:
     * Image Source = `Screenshot`
-    * Box Source = `Box 2D`
     * Logo Source = `Marquee`
       
 * Recommneded Scraper Settings for the built-in Scraper in PlumOS are:
@@ -32,7 +30,7 @@
 <br>
 
 ### **<p align=center>-= Download =-</p>**
-This version of the theme only works with [Knulli](https://www.knulli.org/) and [PlumOS](https://github.com/game-de-it/XU_MINI_M/). The latest version for each OS can be found on the releases page:
+This version of the theme only works with [Knulli](https://www.knulli.org/), [PlumOS](https://github.com/game-de-it/XU_MINI_M/) and [ArkOS(TheRA)](https://github.com/christianhaitian/arkos/wiki). The latest version for each OS can be found on the releases page:
 
 https://github.com/GHROTIC/art-book-next-retrogirls-es/releases
 
@@ -72,6 +70,7 @@ Customization has been removed in the PlumOS version and will eventually be phas
 * ChangaOne font is by [Eduardo Tunni](https://www.fontsquirrel.com/fonts/changa)
 * Metadata Icons sourced from [FontAwesome](https://fontawesome.com/search?o=r&m=free)
 * Thank you to [GenoCL](https://genocl.carrd.co/) for the idea of the multi-artwork system view.
+* Thanks to [nkahoang](https://github.com/nkahoang/es-theme-art-book-next-arkos) and [ljhmd0825](https://github.com/ljhmd0825/Arkos-43-art-book-next) for their porting work to ArkOS for 1:1 & 4:3 support.
 * All images sourced from image depositories that allow user downloads, transferable rights and creation of derivative works per thier ToS, such as Danbooru. In some cases official art, screenshots or wallpaper may be used as placeholders.
 ###### *<p align=center>(If you are the original artist and would like your work removed from this project, please contact me via Discord: @GHROTIC)</p>*
 
