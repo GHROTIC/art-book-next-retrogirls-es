@@ -22,7 +22,7 @@
 
 * To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli, TheRA and ArkOS are:
     * Image Source = `Screenshot`
-    * Logo Source = `Marquee`
+    * Logo Source = `Wheel`
       
 * Recommneded Scraper Settings for the built-in Scraper in PlumOS are:
     * Image Source = `Screenshot`
