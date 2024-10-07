@@ -8,7 +8,7 @@
 | -- | -- |
 | ![4:3 Knulli Boot Logo](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/preview/bootlogo_4-3.jpg) | ![4:3 Knulli Preview](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/preview/retrogirls_4-3.jpg) |
 
-| 4:3 PlumOS Boot Logo Preview | 4:3 PlumOS Theme Preview |
+| 4:3 PlumOS Boot Logo Preview | 4:3 Systems Preview |
 | -- | -- |
 | ![4:3 PlumOS Boot Logo](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/preview/plumosbootlogo_4-3.jpg) | ![4:3 Systems Preview](https://github.com/GHROTIC/art-book-next-retrogirls-es/blob/master/assets/preview/plumosretrogirls_4-3.jpg) |
 
