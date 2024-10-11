@@ -14,29 +14,26 @@
 
 ### **<p align=center>-= Notes =-</p>**
 
-* Currently supports 4:3 screen ratios on PlumOS, TheRA & ArkOS. Knulli version supports 4:3 and 16:9 screen ratios.
+* Currently supports 4:3 screen ratios on PlumOS, AmberELEC, TheRA & ArkOS. Knulli version supports 4:3 and 16:9 screen ratios.
 * Original Art removed to reduce bloat and new default images added for resolutions up to from 480p to 1080p, depending on OS. 
 * Extremely old and/or obscure systems will have a default image due to the difficulty in finding art that represents it. The Image Mask to create additional images will eventually be included with all distributions, in case you would like to add your own system artwork.
 
 #### Media Scraping:
 
-* To make game artwork look as good as possible, the recommneded settings for the built-in scraper in Knulli, TheRA and ArkOS are:
+* To make game artwork look as good as possible, the recommneded settings for scraped art are:
     * Image Source = `Screenshot`
     * Logo Source = `Wheel`
       
-* Recommneded Scraper Settings for the built-in Scraper in PlumOS are:
-    * Image Source = `Screenshot`
-
 <br>
 
 ### **<p align=center>-= Download =-</p>**
-This version of the theme only works with [Knulli](https://www.knulli.org/), [PlumOS](https://github.com/game-de-it/XU_MINI_M/) and [ArkOS(TheRA)](https://github.com/christianhaitian/arkos/wiki). The latest version for each OS can be found on the releases page:
+This version of the theme only works with [PlumOS](https://github.com/game-de-it/XU_MINI_M/), [ArkOS](https://github.com/christianhaitian/arkos/wiki) Variants(TheRA), [AmberELEC](https://www.amberelec.org/) Variants(PAN4ELEC, Etc), and [Knulli](https://www.knulli.org/). The latest version for each OS can be found on the releases page:
 
 https://github.com/GHROTIC/art-book-next-retrogirls-es/releases
 
 <br>
 
-## Theme Configuration
+##Knulli/Retrobat Theme Configuration
 
 The following options can be changed directly from the main menu under `User Interface Settings > Theme Configuration`
 
